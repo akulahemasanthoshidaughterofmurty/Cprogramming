@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class item
+{
+private:          //private section starts
+int codeno;
+float prize;
+int qty;
+public:           //public section starts
+void show()        //member function
+{
+codeno=125;
+prize=9.95;
+qty=200;
+cout<<"\ncodeno="<<codeno;
+cout<<"\nprize="<<prize;
+cout<<"\nqty="<<qty;
+}
+};
+int main()
+{
+iteam one;
+one.show;       //object declaration
+return 0;         //call to member function
+}
