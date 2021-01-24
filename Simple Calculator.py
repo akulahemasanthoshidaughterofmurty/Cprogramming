@@ -1,0 +1,13 @@
+c=input()
+f=int(input())
+s=int(input())
+if(c=="+"):
+    print(f+s)
+elif(c=="-"):
+    print(f-s)
+elif(c=="*"):
+    print(f*s)
+elif(c=="/"):
+    print(f/s)
+elif(c=="%"):
+    print(f%s)
